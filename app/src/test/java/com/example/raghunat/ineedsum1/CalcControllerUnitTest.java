@@ -14,6 +14,7 @@ public class CalcControllerUnitTest {
     }
     @Test
     public void calculateAddition() {
+        CalcController._equation = "";
         CalcController.insert("2");
         CalcController.insert("+");
         CalcController.insert("2");
@@ -22,6 +23,7 @@ public class CalcControllerUnitTest {
     }
     @Test
     public void calculateSubtraction() {
+        CalcController._equation = "";
         CalcController.insert("6");
         CalcController.insert("-");
         CalcController.insert("2");

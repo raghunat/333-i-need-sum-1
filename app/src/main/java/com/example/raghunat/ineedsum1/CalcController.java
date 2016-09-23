@@ -41,6 +41,12 @@ public class CalcController {
             case "-":
                 answer = first - second;
                 break;
+            case "*":
+                answer = first * second;
+                break;
+            case "/":
+                answer = first / second;
+                break;
         }
 
         return answer;
